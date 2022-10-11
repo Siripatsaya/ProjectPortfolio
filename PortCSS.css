@@ -1,0 +1,325 @@
+a:link{
+	color: rgb(255, 255, 255); 
+}  */
+/* visited link */
+a:visited{
+	color: rgb(255, 123, 0); 
+} 
+/* mouse over link */  
+ a:hover{ 
+	color: rgb(164, 87, 0);
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+
+#about {
+    height: 900px;
+
+}
+  
+#linkAR{
+    color: #000;
+    text-align: center;
+}
+
+#Ref a{
+    display: block;
+    color: #000; 
+
+}
+
+.reference{
+    text-align: center;
+    
+}
+
+div a{
+    color: rgb(255, 255, 255);
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-decoration: none;
+    letter-spacing: 4px;
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+
+
+.imghead{
+    background-image: url(me.jpg);
+    width: 100%;
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+span{
+    margin-left: 10%;
+}
+
+/* CCS width and height */
+body{
+    background-color: white;
+}
+
+.barhead{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menubutton{
+    float: right;
+    white-space: normal;   
+}
+
+.head{
+    display: flex;
+    font-family: Verdana,sans-serif;
+    font-size: 50px;
+    text-align: left;
+
+}
+
+hr{
+    margin-bottom: 30%; 
+    border: 3px solid black;
+    width: 1px;
+
+}
+p{
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Verdana,sans-serif;
+    font-size: 20pt;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 4px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Garamond, "Times New Roman", serif; 
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+h1.quote{
+    font-style: italic;
+}
+
+h3{
+    margin-top: 30px;
+}
+
+.textcontact{
+    display: block;
+    margin-left: 1px;
+}
+
+.about{
+    text-align: center;
+}
+
+
+
+/* Flexible box */
+.flex_container{
+    display: flex;
+    flex-wrap: wrap; 
+    margin-bottom: 10px; 
+    text-align: center;
+} 
+
+.flex_about{
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    box-sizing: inherit;
+    flex-wrap: wrap;
+    float: none;
+}
+
+.flex_pro{
+    width: 80%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    box-sizing: inherit;
+    flex-wrap: wrap;
+    float: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa-facebook {
+    display: flex;
+    display: block;
+    text-align: center;
+    color: white;
+    margin-left: 48%;
+    margin-right: 48%;  
+}
+
+.fa-instagram{
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+    text-align: center;
+    color: white;
+    float: none;
+    margin-left: 48%;
+    margin-right: 48%;
+}
+
+.fa-phone{
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+    text-align: center;
+    float: none;
+    margin-left: 35%;
+}
+
+footer{
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding-top: 64px;
+    padding-bottom: 64px;
+    bottom: 0;
+    width: 100%;
+}
+
+.icon{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);  
+}
+
+.row{
+    display: flex;
+    box-sizing: border-box;
+}
+  
+.column1{
+    flex: 50%;
+    padding: 10px;
+    margin-left: 15%;
+}
+
+.column2{
+    flex: 50%;
+    padding: 10px;
+    margin-top: 1%;
+    font-family: Garamond, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 5%;
+
+}
+
+button{
+    width: 25%;
+    font-size: 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: Garamond, "Times New Roman", serif; 
+    margin-bottom: 5px;
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+}
+  
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.flex_skills{
+    width: 3%;
+}
+  
+.procreate{
+    width: 90%; 
+    background-color: #202020;
+    margin-bottom: 1%;
+}
+
+.ai{
+    width: 80%; 
+    background-color: #271c1c;
+    margin-bottom: 1%;
+}
+
+.cc{
+    width: 65%; 
+    background-color: #190053;
+    margin-bottom: 1%;
+}
+
+.ps{
+    width: 60%; 
+    background-color: #041b29;
+}
+
+.right_page{
+    text-align: left;
+    float: center;
+}
+
+
+@media (max-width: 600px){
+    .menubutton {
+        Display: none!important;
+    }
+    .head{
+        font-size: 30px;
+    }
+
+}

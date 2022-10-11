@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='mainre.css'>
+	<script src='register.js'></script>
+</head>
+<body>
+	<form name="myForm" id="myForm" action="login.html">
+		<div>
+			<fieldset>
+				<div><legend>REGISTER</legend></div>
+				<div>
+					<span>*require</span> <br>
+					<span id="errormsg"></span> <br>
+				</div>
+
+				<div><p>First name*</p></div>	
+				<div>
+					<input type="text" name="firstname" id="firstname" required> <br>
+				</div>
+
+				<div><p>Last name*</p></div>	
+				<div>
+					<input type="text" name="lastname" id="lastname" required> <br>
+				</div>
+
+				<div><p>Gender*</p></div>	
+				<div>
+					<input type="radio" name="gender" id="male" value="male" required>Male
+					<input type="radio" name="gender" id="female" value="female" required>Female
+					<input type="radio" name="gender" value="other" id="other" required>Other
+					<br>
+				</div>
+
+				<div><p>Birthday*</p></div>	
+				<div>
+					<input type="date" name="bday" value="" id="bday" required>
+					<br>
+				</div>
+
+				<div><p>Email address*</p></div>	
+				<div>
+					<input type="email" name="email" id="email" required>
+					<br>
+				</div>
+
+				<div><p>Username*</p></div>	
+				<div>
+					<input type="text" name="username" id="username" required>
+					<br>
+				</div>
+
+				<div><p>Password*</p></div>	
+				<div>
+					<input type="password" name="passwordMain" id="passwordMain" required>
+					<br>
+				</div>
+
+				<div><p>Retype Password*</p></div>	
+				<div>
+					<input type="password" name="passwordRe" id="passwordRe" required>
+					<br>
+				</div>
+
+				<div>
+					<input type="submit" id="submit" value="Register">
+					<input type="reset" id="reset" value="Reset">
+				</div>
+
+			</fieldset>
+		</div>
+	</form>
+</body>
+</html>

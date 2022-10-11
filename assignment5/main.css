@@ -1,0 +1,134 @@
+a{
+    color: #000;
+}
+
+body{
+
+    background-color:darkred;
+}
+
+p{
+    background-color:black;
+    color:goldenrod;
+    font-family: Garamond, "Times New Roman", serif; 
+    font-size: 50pt;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.emoji{
+    color:red;
+    font-size: 20pt;
+    text-align: center;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.flex_container{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex_containerhead{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px; 
+    justify-content: center;
+}
+
+#topic{
+    text-align: center;
+    color:wheat;
+    font-family: Garamond, "Times New Roman", serif; 
+    font-size: 20pt;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#comment1{
+    text-align: center;
+    color: wheat;
+    font-family: Garamond, "Times New Roman", serif; 
+    font-size: 20pt;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#comment2{
+    text-align: center;
+    color: wheat;
+    font-family: Garamond, "Times New Roman", serif; 
+    font-size: 20pt;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#text1{
+    text-align: center;
+
+}
+
+textarea{
+    text-align: center;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+div{
+    text-align: center;
+}
+
+hr{
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    width: 50%;
+    border: none;
+}
+
+button{
+    background-color: black;
+    color: goldenrod;
+    font-family: Garamond, "Times New Roman", serif; 
+}
